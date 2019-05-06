@@ -10,8 +10,10 @@ print("Para animarlo escoge una de las opciones anteriores. Dependiendo de cual 
 print("La cantidad de corazones que se le añadan dependera de que accion escogas.")
 print("Cuando alcances la cantidad de 20 o mas corazones habras conseguido alegrar a Eugenio. \n Entonces, empieza:")
 
+#juego
 
 while felicidad_eugenio < 20:
+#acciones
     accion_escogida = input("Que quieres hacer para animar a Eugenio?: ").upper()
     if accion_escogida == "DARLE MOTA":
         print("(+5)")

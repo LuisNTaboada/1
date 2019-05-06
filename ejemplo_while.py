@@ -1,4 +1,6 @@
 
+#como usar while (Ej: cuenta regresiva)
+
 numero_inicial = 10
 print (numero_inicial)
 while numero_inicial > 0:
