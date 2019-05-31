@@ -18,7 +18,21 @@ for numero in numeros:
     if numero_mas_grande < numero:
         numero_mas_grande = numero
 
+largo = 0
+media = 0
+x = 0
+#Saca el largo de la lista sin usar len()
+for numero in numeros:
+    largo += 1
+    x += numero
+
+
+media = (x)/largo
+
+print("El largo de la lista es {}".format(largo))
 print("El numero mas grande es {}".format(numero_mas_grande))
+print("Y la media es {}".format(media))
+
 
 
 
